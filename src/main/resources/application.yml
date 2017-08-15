@@ -1,5 +1,7 @@
 server:
   port: 8081
+  context-path: /antimage
+
 
 spring:
   application:
@@ -16,5 +18,5 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     serviceUrl:
-      defaultZone: http://localhost:8081/eureka/
+      defaultZone: http://localhost:8081/antimage/eureka/
 
